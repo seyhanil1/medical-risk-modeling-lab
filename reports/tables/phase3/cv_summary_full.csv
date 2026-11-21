@@ -1,0 +1,4 @@
+model,roc_auc_mean,roc_auc_sd,pr_auc_mean,pr_auc_sd,brier_mean,brier_sd,log_loss_mean,log_loss_sd,cal_slope_mean,cal_slope_sd,cal_intercept_mean,cal_intercept_sd
+baseline_age_sex,0.7157,0.0698,0.683,0.0765,0.2154,0.0219,0.6157,0.0482,1.0517,0.4522,0.0009,0.1462
+logreg_l2,0.8997,0.0394,0.8963,0.0423,0.1263,0.0268,0.4049,0.0734,1.1961,0.4029,-0.0032,0.3668
+logreg_spline,0.887,0.0466,0.879,0.0493,0.1385,0.0286,0.4361,0.0771,1.2279,0.4837,0.0098,0.3767

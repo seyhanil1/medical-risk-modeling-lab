@@ -1,0 +1,11 @@
+feature_set,model,primary,best_params,roc_auc,pr_auc,brier,log_loss,mean_pred,prevalence,cal_slope,cal_intercept,cal_slope_intercept,auc_ci_low,auc_ci_high,brier_ci_low,brier_ci_high
+pre_angio,baseline_age_sex,False,{},0.6797,0.6342,0.2259,0.6484,0.4462,0.459,0.7112,0.0617,0.0075,0.5314,0.809,0.1812,0.2772
+pre_angio,logreg_l2,True,{'model__C': np.float64(0.31622776601683794)},0.9502,0.9267,0.0975,0.3315,0.4704,0.459,2.071,-0.0746,-0.098,0.8874,0.9935,0.0667,0.134
+pre_angio,logreg_enet,False,"{'model__C': np.float64(0.630957344480193), 'model__l1_ratio': 0.2}",0.9513,0.9265,0.0962,0.3245,0.4715,0.459,1.905,-0.0868,-0.1499,0.8885,0.9946,0.0645,0.1337
+pre_angio,random_forest,False,"{'model__max_depth': None, 'model__min_samples_leaf': 3}",0.9448,0.9314,0.1111,0.3711,0.4808,0.459,2.4856,-0.1259,-0.3046,0.8853,0.9892,0.0816,0.1439
+pre_angio,hist_gb,False,"{'model__learning_rate': 0.03, 'model__max_depth': 2}",0.9383,0.9214,0.0994,0.334,0.4778,0.459,1.5684,-0.1338,-0.2576,0.8734,0.9849,0.0619,0.1429
+full,baseline_age_sex,False,{},0.6797,0.6342,0.2259,0.6484,0.4462,0.459,0.7112,0.0617,0.0075,0.5314,0.809,0.1812,0.2772
+full,logreg_l2,True,{'model__C': np.float64(0.31622776601683794)},0.9481,0.9298,0.0953,0.3234,0.5312,0.459,1.3447,-0.6106,-0.7931,0.881,0.9924,0.0549,0.1447
+full,logreg_enet,False,"{'model__C': np.float64(0.630957344480193), 'model__l1_ratio': 0.2}",0.9513,0.9317,0.0934,0.3163,0.5293,0.459,1.2528,-0.6423,-0.7887,0.8853,0.9935,0.052,0.1435
+full,random_forest,False,"{'model__max_depth': None, 'model__min_samples_leaf': 3}",0.9513,0.9385,0.101,0.3445,0.4916,0.459,2.112,-0.2053,-0.392,0.8929,0.9924,0.0683,0.1369
+full,hist_gb,False,"{'model__learning_rate': 0.03, 'model__max_depth': 2}",0.9632,0.9575,0.0817,0.2762,0.5046,0.459,1.6634,-0.3869,-0.686,0.9156,0.9946,0.047,0.1234

@@ -1,0 +1,3 @@
+# Dosyalar bayt bayt saklanır: satır sonu dönüşümü yapılmaz.
+# RELEASE_MANIFEST.csv'deki SHA-256 değerleri her klonda aynı kalmalı.
+* -text

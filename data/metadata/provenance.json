@@ -1,0 +1,62 @@
+{
+  "dataset": "Heart Disease (UCI ML Repository id 45) — Cleveland subset",
+  "subset_file": "processed.cleveland.data",
+  "source_page": "https://archive.ics.uci.edu/dataset/45/heart+disease",
+  "download_url": "https://archive.ics.uci.edu/static/public/45/heart+disease.zip",
+  "doi": "https://doi.org/10.24432/C52P4X",
+  "license": "CC BY 4.0 (Creative Commons Attribution 4.0 International)",
+  "version_note": "UCI tek bir sürüm numarası yayımlamaz. Sürüm, DOI + arşivin SHA-256 özeti ile sabitlenmiştir. Bağış tarihi 1988-06-30 (UCI sayfası); heart-disease.names dosyası 'July, 1988' ve donör David W. Aha olarak belirtir. Arşivdeki dosyaların zaman damgası 2023-05-22'dir.",
+  "dataset_citation": "Janosi, A., Steinbrunn, W., Pfisterer, M., & Detrano, R. (1989). Heart Disease [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C52P4X",
+  "introductory_paper": "Detrano, R., Janosi, A., Steinbrunn, W., Pfisterer, M., Schmid, J., Sandhu, S., Guppy, K., Lee, S., & Froelicher, V. (1989). International application of a new probability algorithm for the diagnosis of coronary artery disease. American Journal of Cardiology, 64(5), 304-310. https://doi.org/10.1016/0002-9149(89)90524-9",
+  "principal_investigators_requested_in_publications": [
+    "Hungarian Institute of Cardiology, Budapest: Andras Janosi, M.D.",
+    "University Hospital, Zurich: William Steinbrunn, M.D.",
+    "University Hospital, Basel: Matthias Pfisterer, M.D.",
+    "V.A. Medical Center, Long Beach and Cleveland Clinic Foundation: Robert Detrano, M.D., Ph.D."
+  ],
+  "files": {
+    "heart+disease.zip": {
+      "path": "data/raw/heart+disease.zip",
+      "sha256": "b17cd273da9ce1caa4710fce80227ea454d4dbf9fcbc8e6a9121672751563adc",
+      "expected_sha256": "b17cd273da9ce1caa4710fce80227ea454d4dbf9fcbc8e6a9121672751563adc",
+      "matches": true,
+      "size_bytes": 128894
+    },
+    "processed.cleveland.data": {
+      "path": "data/raw/uci_zip/processed.cleveland.data",
+      "sha256": "a74b7efa387bc9d108d7d0115d831fe9b414b29ae7124f331b622b4efa0427c8",
+      "expected_sha256": "a74b7efa387bc9d108d7d0115d831fe9b414b29ae7124f331b622b4efa0427c8",
+      "matches": true,
+      "size_bytes": 18461
+    },
+    "heart-disease.names": {
+      "path": "data/raw/uci_zip/heart-disease.names",
+      "sha256": "ec7ed5aa4ed8321097808f47b836301c2a0c36f3bb09c40b8b43b622363e6b61",
+      "expected_sha256": "ec7ed5aa4ed8321097808f47b836301c2a0c36f3bb09c40b8b43b622363e6b61",
+      "matches": true,
+      "size_bytes": 10060
+    },
+    "processed.hungarian.data": {
+      "path": "data/raw/uci_zip/processed.hungarian.data",
+      "sha256": "d1ad108f785768cd3d7e82dc522e6f5a61eea93cccfb3a46ee8076f73fc3d796",
+      "expected_sha256": "d1ad108f785768cd3d7e82dc522e6f5a61eea93cccfb3a46ee8076f73fc3d796",
+      "matches": true,
+      "size_bytes": 10263
+    },
+    "processed.switzerland.data": {
+      "path": "data/raw/uci_zip/processed.switzerland.data",
+      "sha256": "834a405ccf5b66ab4056bb77794adc8df0b7125186454c0a1d002d33c6c3b314",
+      "expected_sha256": "834a405ccf5b66ab4056bb77794adc8df0b7125186454c0a1d002d33c6c3b314",
+      "matches": true,
+      "size_bytes": 4109
+    },
+    "processed.va.data": {
+      "path": "data/raw/uci_zip/processed.va.data",
+      "sha256": "e7c93d8d0d2acdadfa4c5e8de768e2191e7f618b952e29623f1f0d5949ff6b8f",
+      "expected_sha256": "e7c93d8d0d2acdadfa4c5e8de768e2191e7f618b952e29623f1f0d5949ff6b8f",
+      "matches": true,
+      "size_bytes": 6737
+    }
+  },
+  "retrieved_at_utc": "2026-11-21T10:31:41+00:00"
+}

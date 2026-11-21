@@ -1,0 +1,2 @@
+variable,check,severity,n_records
+thalach,thalach > (220 - yaş) + 20 / well above age-predicted max,info,4

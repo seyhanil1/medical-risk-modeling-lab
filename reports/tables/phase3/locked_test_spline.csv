@@ -1,0 +1,3 @@
+feature_set,model,roc_auc,pr_auc,brier,log_loss,mean_pred,prevalence,cal_slope,cal_intercept,cal_slope_intercept,auc_ci_low,auc_ci_high
+pre_angio,logreg_spline,0.9665,0.9542,0.0939,0.3302,0.4825,0.459,2.7867,-0.1443,-0.2109,0.9156,0.9978
+full,logreg_spline,0.9632,0.9462,0.0863,0.3104,0.5321,0.459,1.7426,-0.5435,-0.886,0.9037,0.9968

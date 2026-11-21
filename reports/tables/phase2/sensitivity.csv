@@ -1,0 +1,7 @@
+feature_set,variant,n,roc_auc,brier
+pre_angio,"birincil (atama, slope nominal)",242,0.8544,0.1574
+pre_angio,tam vaka,242,0.8544,0.1574
+pre_angio,slope sıralı sayısal,242,0.8492,0.1605
+full,"birincil (atama, slope nominal)",242,0.8997,0.1263
+full,tam vaka,240,0.902,0.1251
+full,slope sıralı sayısal,242,0.8987,0.1285

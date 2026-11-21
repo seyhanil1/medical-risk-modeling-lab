@@ -1,0 +1,15 @@
+variable,kind,pandas_dtype,n_unique,n_missing,observed
+age,continuous,Int64,41,0,29–77
+sex,binary,Int64,2,0,"0, 1"
+cp,nominal,Int64,4,0,"1, 2, 3, 4"
+trestbps,continuous,Int64,50,0,94–200
+chol,continuous,Int64,152,0,126–564
+fbs,binary,Int64,2,0,"0, 1"
+restecg,nominal,Int64,3,0,"0, 1, 2"
+thalach,continuous,Int64,91,0,71–202
+exang,binary,Int64,2,0,"0, 1"
+oldpeak,continuous,float64,40,0,0.0–6.2
+slope,ordinal,Int64,3,0,"1, 2, 3"
+ca,ordinal,Int64,4,4,"0, 1, 2, 3"
+thal,nominal,Int64,3,2,"3, 6, 7"
+num,target,Int64,5,0,"0, 1, 2, 3, 4"

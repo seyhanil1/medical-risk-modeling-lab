@@ -1,0 +1,89 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software or its reports, please cite it as below. Please also
+  cite the UCI Heart Disease data set listed under references.
+type: software
+title: "Medical Risk Modeling Lab"
+abstract: >-
+  Development and internal-external evaluation of a clinical prediction model
+  for angiographic coronary artery disease in patients referred for coronary
+  angiography, using the UCI Heart Disease (Cleveland) data, reported following
+  TRIPOD+AI. Research and education only; not a clinical tool.
+authors:
+  - given-names: "Seyhan Anıl"
+    family-names: "Kaya"
+version: "1.0.0"
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - clinical prediction model
+  - coronary artery disease
+  - logistic regression
+  - nested cross-validation
+  - calibration
+  - decision curve analysis
+  - external validation
+  - TRIPOD+AI
+references:
+  - type: data
+    title: "Heart Disease"
+    authors:
+      - given-names: "Andras"
+        family-names: "Janosi"
+      - given-names: "William"
+        family-names: "Steinbrunn"
+      - given-names: "Matthias"
+        family-names: "Pfisterer"
+      - given-names: "Robert"
+        family-names: "Detrano"
+    year: 1989
+    publisher:
+      name: "UCI Machine Learning Repository"
+    doi: "10.24432/C52P4X"
+    license: CC-BY-4.0
+  - type: article
+    title: "International application of a new probability algorithm for the diagnosis of coronary artery disease"
+    authors:
+      - family-names: "Detrano"
+        given-names: "Robert"
+      - family-names: "Janosi"
+        given-names: "Andras"
+      - family-names: "Steinbrunn"
+        given-names: "William"
+      - family-names: "Pfisterer"
+        given-names: "Matthias"
+      - family-names: "Schmid"
+        given-names: "Johann-Jakob"
+      - family-names: "Sandhu"
+        given-names: "Sarbjit"
+      - family-names: "Guppy"
+        given-names: "Kern H."
+      - family-names: "Lee"
+        given-names: "Stella"
+      - family-names: "Froelicher"
+        given-names: "Victor"
+    journal: "American Journal of Cardiology"
+    year: 1989
+    volume: 64
+    issue: 5
+    start: 304
+    end: 310
+    doi: "10.1016/0002-9149(89)90524-9"
+  - type: article
+    title: "TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods"
+    authors:
+      - family-names: "Collins"
+        given-names: "Gary S."
+      - family-names: "Moons"
+        given-names: "Karel G. M."
+      - family-names: "Dhiman"
+        given-names: "Paula"
+      - family-names: "Riley"
+        given-names: "Richard D."
+      - name: "et al."
+    journal: "BMJ"
+    year: 2024
+    volume: 385
+    start: e078378
+    doi: "10.1136/bmj-2023-078378"

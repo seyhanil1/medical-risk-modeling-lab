@@ -1,0 +1,11 @@
+threshold,nb_diff,ci_low,ci_high,comparison
+0.1,0.0083,-0.0023,0.0156,l2_pre − treat_all
+0.2,0.0403,0.0155,0.062,l2_pre − treat_all
+0.3,0.075,0.0289,0.1157,l2_pre − treat_all
+0.4,0.1694,0.1047,0.2287,l2_pre − treat_all
+0.5,0.314,0.2231,0.3967,l2_pre − treat_all
+0.1,0.0014,-0.0119,0.0119,l2_full − l2_pre
+0.2,0.0114,-0.0134,0.0351,l2_full − l2_pre
+0.3,0.0289,-0.0083,0.0638,l2_full − l2_pre
+0.4,0.0496,0.0082,0.0882,l2_full − l2_pre
+0.5,0.0661,0.0207,0.1157,l2_full − l2_pre

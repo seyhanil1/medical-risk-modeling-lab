@@ -1,0 +1,30 @@
+[project]
+name = "medical-risk-modeling-lab"
+version = "1.0.0"
+description = "Development and internal-external evaluation of a clinical prediction model for angiographic coronary artery disease (UCI Heart Disease). Research/education only; not a clinical tool."
+authors = [{ name = "Seyhan Anıl Kaya" }]
+readme = "README.md"
+# Code: MIT. Reports/figures: CC BY 4.0 (see LICENSING.md).
+license = "MIT"
+license-files = ["LICENSE", "LICENSES/*", "LICENSING.md", "THIRD_PARTY_NOTICES.md"]
+requires-python = ">=3.11"
+# Alt sınırlar kodun gerçekten ihtiyaç duyduğu sürümlerdir; test edilen tam sürümler
+# requirements-lock.txt içindedir.
+#  - scikit-learn >= 1.8: LogisticRegression(l1_ratio=...) cezayı l1_ratio ile belirler.
+#    Daha eski sürümlerde l1_ratio, penalty='elasticnet' olmadan YOK SAYILIR ve
+#    Elastic-Net modeli sessizce L2'ye döner.
+#  - matplotlib >= 3.10: boxplot(orientation=...) parametresi.
+dependencies = [
+    "pandas>=2.2",
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "matplotlib>=3.10",
+    "scikit-learn>=1.8",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

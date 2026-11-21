@@ -1,0 +1,5 @@
+feature_set,group_a,group_b,n_a,events_a,n_b,events_b,auc_diff,auc_diff_ci_low,auc_diff_ci_high,citl_diff,citl_diff_ci_low,citl_diff_ci_high
+pre_angio,Kadın,Erkek,77,18,165,93,0.0351,-0.0948,0.1452,-0.6088,-0.9877,-0.2041
+pre_angio,Yaş < 55,Yaş ≥ 55,115,37,127,74,0.0533,-0.0505,0.1582,-0.343,-0.7076,0.0382
+full,Kadın,Erkek,77,18,165,93,0.0154,-0.0843,0.1129,-0.5813,-1.1341,-0.0742
+full,Yaş < 55,Yaş ≥ 55,115,37,127,74,0.0461,-0.0397,0.1307,-0.3348,-0.7823,0.1094

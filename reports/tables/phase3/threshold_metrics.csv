@@ -1,0 +1,5 @@
+rule,threshold_mean,sensitivity_mean,specificity_mean,ppv_mean,npv_mean,positive_rate_mean,threshold_sd,sensitivity_sd,specificity_sd,ppv_sd,npv_sd,positive_rate_sd,feature_set
+sens90,0.242,0.905,0.555,0.636,0.883,0.656,0.023,0.079,0.098,0.055,0.087,0.069,pre_angio
+youden,0.479,0.713,0.788,0.751,0.775,0.442,0.083,0.135,0.102,0.079,0.078,0.104,pre_angio
+sens90,0.262,0.896,0.639,0.681,0.887,0.607,0.026,0.08,0.093,0.055,0.076,0.072,full
+youden,0.511,0.756,0.886,0.856,0.814,0.408,0.071,0.093,0.07,0.076,0.057,0.06,full

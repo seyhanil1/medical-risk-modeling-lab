@@ -1,0 +1,109 @@
+path,bytes,sha256,category,license
+.gitattributes,151,66e1871522bc8dff9e3f6f59cce70e68d640513ba6229088fbea84cf5c54dd97,code,MIT
+.gitignore,716,c4691b14f162ee5658f22509f04cbcb7765974f97de4d7a77df39cdeec55b7e7,code,MIT
+CITATION.cff,2720,98859740b7087a082914efcdd8aeb878745cf00e924c57b26f3efa4e980bb8c2,content,CC BY 4.0
+LICENSE,1074,4cd7517a5dd899728fa3e75f4d79e43448d7ed93521483a19d24ab3ea8db3286,license-text,MIT (license text)
+LICENSES/CC-BY-4.0.txt,18657,9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411,license-text,"CC BY 4.0 legal code (Creative Commons, verbatim)"
+LICENSES/MIT.txt,1074,4cd7517a5dd899728fa3e75f4d79e43448d7ed93521483a19d24ab3ea8db3286,license-text,MIT (license text)
+LICENSING.md,2671,3683683bf7e887b98a523ae4c530eb293c8082d42aee3d6b0ed17feb7c8b4f55,content,CC BY 4.0
+README.md,15065,8425af593365b9adca9af9002ee67914bd7d287a67ccca87cc1e8c95818570e2,content,CC BY 4.0
+THIRD_PARTY_NOTICES.md,4287,9eaa0965a17b9dbd1f77d6e5df4c482b51d4de753003964a1d11cb705325ef3e,content,CC BY 4.0
+data/metadata/provenance.json,3627,54cabbf200e0102037db3b141f9e35f1e76bed3fa62862676a00521845dc18a4,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+docs/data_dictionary.md,4862,2fd96ac584e21f398344678fb011b63f1b31772c3f0333906d0af22dd95e2916,adapted-content,CC BY 4.0 (adaptation; see THIRD_PARTY_NOTICES.md)
+docs/decisions.md,2935,3d251166daaa78b4732c555a15c53adbad4a057caf57d445afe4b9235019aa9f,content,CC BY 4.0
+docs/research_plan.md,4197,a408dd45ef07760d23c5e7e1931814c1acf176a34a0b85ecb53690863ac53b15,content,CC BY 4.0
+docs/tripod_ai_checklist.md,8549,3e44d7f5b41d02de886348e9164445029331ed431753b180ab4d489ba60445da,adapted-content,CC BY 4.0 (adaptation; see THIRD_PARTY_NOTICES.md)
+pyproject.toml,1204,38aedb28d768f0996165539d07012b4265b7be10e55ac90a3dbaa84e42ad5ce7,code,MIT
+reports/figures/01_target_distribution.png,56261,c710d8a5458349148d0f8409bbe42d8a0ec1b254c5088ce465097490456c4c08,figure,CC BY 4.0
+reports/figures/02_missingness.png,52577,56ed8ea421237f81d1179c55419f48a10ff06b9943ab442ef7c7e7cb3354a9d3,figure,CC BY 4.0
+reports/figures/03_continuous_by_class.png,105852,81fbd6190128e9387ba85c1c621c992a7c585b7a38fa7e644711ad1e79decf72,figure,CC BY 4.0
+reports/figures/04_categorical_disease_rates.png,162937,98622f072cb102595688ad19255a2f7c81fbde25611520dced847bdb85e0b961,figure,CC BY 4.0
+reports/figures/05_spearman_correlation.png,100724,d8d46e7b1ae04103ef8728019225f892bbbcb82e611bdef8a6b9db72baeff2e5,figure,CC BY 4.0
+reports/figures/06_univariate_effect_sizes.png,82174,d82ea9d2b57ed8423e6f1ace7bbcf5b5618999a5cfbf198cb4112b755967d334,figure,CC BY 4.0
+reports/figures/07_sample_age_sex.png,33772,f2f3824bff01268afd4b0057b390792f667ec5ee2b4dbea2d85e7983a539a93b,figure,CC BY 4.0
+reports/figures/p2_01_cv_auc.png,72491,d4670cda1324a690c1041b577ea96ef20aca1fb56d37fbf95ac7cbbbb588a42b,figure,CC BY 4.0
+reports/figures/p2_02_roc_oof.png,103170,131bc5991c0ad91062556065d2a4216cb5deeb36c1387df09fbce4173d477af3,figure,CC BY 4.0
+reports/figures/p2_03_calibration.png,67904,3cbfa809878a2e3550bb24e69337845caf5e238966024855db1f04666f373dda,figure,CC BY 4.0
+reports/figures/p2_04_odds_ratios.png,77565,78d81c4a721b7a05c931b07ff6350d2d784733e7ec819a340d5ef5825e0e20f4,figure,CC BY 4.0
+reports/figures/p2_05_permutation_importance.png,78027,2281b38ded18f12a7e418d6dc3dc0338fde3cf8b0d03df149c74af9e355fd1c7,figure,CC BY 4.0
+reports/figures/p2_06_transfer.png,61408,fe1b7a0381335451eea3edc3c87c8ab2c6cc4315998624bc7798c76f321fc090,figure,CC BY 4.0
+reports/figures/p3_01_decision_curve.png,99830,18c1686fb622b334cfe92dcf3301f44c41d5d87b95e67199a5fc4b83da0e7733,figure,CC BY 4.0
+reports/figures/p3_02_recalibration.png,127482,2ab5a8f21eef54b26b05b5270d69ce2c2e6e6ee6e53a9a534bd6b4fac5fe45a3,figure,CC BY 4.0
+reports/figures/p3_03_loso.png,57693,af3723de77ed2379771c611abd54e0126743946c295962d8daae1a4139c03def,figure,CC BY 4.0
+reports/figures/p3_04_spline_shapes.png,137036,2501f20ecea32fa861b8f76c43ee4c699c77e553b24f464698d08f48a3f993ab,figure,CC BY 4.0
+reports/figures/p3_05_subgroups.png,70624,e8357cda602bb62f065f6976984cda88ca9ab9673cc5abeae4981ecd59344e61,figure,CC BY 4.0
+reports/final_report.md,18758,2c40760925bf377f0f104c3c26b12793e6ab96d05967c7e0c5ebbc4f459a6532,content,CC BY 4.0
+reports/phase1_report.md,8109,0a47c8b841f0651a8496ae6439bb23aa4886b6ec7dd20cdfe932be8734558431,content,CC BY 4.0
+reports/phase2_report.md,12755,859918e713413271f6ae3ee76288aa536d5f87efc9f9245fd0efb0c993e6cba5,content,CC BY 4.0
+reports/phase3_report.md,13553,ef81d231087d8127fccb4b1c9c2d61f4e5bfd3b09e6cb41df037431d6a16048b,content,CC BY 4.0
+reports/release_audit.md,10614,2c4e8e3d894f6c481cc31fbb15092bb944d532becbd59b3a3cd467a4f5d4ac3b,content,CC BY 4.0
+reports/release_readiness.md,27884,5ab221bf604a98c067b2687edaf4b15bf2e2d04366731519ac4f5e5d5cfc1d50,content,CC BY 4.0
+reports/tables/audit_summary.json,761,02b529929e73060982c7df0d45469233dea507ec2edd70c418938adc32fb1c11,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/categorical_crosstabs.csv,1045,a0e8e97743265642e1d18a064adfefae1e9936acbebb5f8835660749603bbc20,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/consistency_summary.csv,110,b4665d8de9710933358e37ceb72da9404c537a58c0a60e2cc13e3a47256d1754,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/data_dictionary.csv,3774,9d3e3c65539c309d5f065c2d07bd2d629920c486a00ef77515909229b5e3cdeb,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/descriptive_continuous.csv,1054,01ad8dc8150278492b38a7f6e3470b64e85d969ec91fcdd7720d7e542e6b4c9f,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/missing_summary.csv,201,384ec056b085cd3b488fba30bb1ead5cffa4ae2fd0dcfdc0510d664351ceb5eb,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/missing_vs_target.csv,97,a15b2d17461b6ae97393245d4e1b7658535c0b7f57972df8a94710944924f9bf,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase2/cv_fold_scores_full.csv,62821,fa0989676af6648b516cca85523586981317da8310c8820a185510c9aaa31bdf,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase2/cv_fold_scores_pre_angio.csv,63962,8c99800427da278b094c1d09ba6cf430e039fc65ec732fdc361e8d85e8895522,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase2/cv_paired_comparisons.csv,2145,f5235f1642a78e3db3e57b2d6ef8ace6a8bc5f26e9acd88a22cec74f7864f6b3,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase2/cv_summary_full.csv,647,5bc48105d25c0b2a6226b8edc696d6c5bbb06c532e16a9ce3c5da9913f601741,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase2/cv_summary_pre_angio.csv,645,df5e6fe4834653c57c0ac8d7018b4e5ea7d6764c5da942b66c49a7cc0df8f387,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase2/final_logreg_l2_coefficients.csv,1206,0e66ce646bb2612052018e2dd250d6adc2916ea08965b5947a3947840399cf05,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase2/locked_test_results.csv,1819,e854b55a2f76a4b5f7133f11b7852545abdab17789db784c6c62c9d430de9ec1,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase2/odds_ratios_model_A.csv,654,8dada05b2e4c289b23747336e45e14d08bfa4722bb93294fa2772a6f7a9ca94b,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase2/odds_ratios_model_B.csv,812,ed3d7b55c1a8f420463e0b5f9614a2bc0be8fe7e73d594c6aa28a274d6d25d63,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase2/oof_metrics_full.csv,477,6651746b73d69fa2357acf3b02f64d59014fc3e1bde8ca60ed7654365a8dfcd6,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase2/oof_metrics_pre_angio.csv,477,7795dca02791408fa225632fa7f4d7d34a48bc8f9dd3ead555990389b2f17c7f,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase2/permutation_full.csv,14561,6a7e2ffe7650e6af5831a8b66b0ae7bdfe64c37edbf92fd145f0baf299abfa91,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase2/permutation_pre_angio.csv,12286,e0734fbb42a6b5c15cb6c8807284fa8814dffab39c8c6eb0a666b8dde5a38871,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase2/phase2_summary.json,4824,bd909c7d9b645730b932c0bfe65596a086bf18e67be571ed7a81b7bdbeb8931b,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase2/sensitivity.csv,329,474757bfeb56dbd11a578c80402fd4083cfbcc7d79cd2437fb1cf2e802a255f3,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase2/transfer_results.csv,735,28ff5b53498b2c2900e0713f33179c5e10fb880f9ebe21ebc5837945c7ffcfde,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase3/cv_fold_scores_full.csv,35143,14d7999646c45da2371520bde7131cb97c69f3140aa2c42dcef18a496c640528,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase3/cv_fold_scores_pre_angio.csv,35868,41f8e43c0c15f5b4c46ceafea2d671879969f9a31716f733dc8538f4a64f6be4,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase3/cv_summary_full.csv,457,b2cdcec1d497cad752212014ad649daceec642498b7b0305d375fcc396e19c2b,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase3/cv_summary_pre_angio.csv,450,f04023d37e117163ddc6d3d9ea0d9ae543504637a73a9601642a26ce7df30e80,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase3/decision_curve.csv,3481,ad9ef147778de398bccf8fe73f379c0d93259f673356a2e883614b6d99529b1b,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase3/locked_test_spline.csv,337,d42af44c0bc347ab82280d3888ce521c5b451b8b3f14d4f17d01158c4cbd7e9b,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase3/loso.csv,1017,1e3da19996ec04b6fd79f88673fa78bf4ffcb1437aefe9a3b6cb0ccde8fc510c,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase3/loso_missing_by_site.csv,257,f93f461deee84c1c658bdc0f78d0ad5c83534c5866bf7e7cffd43bd8f3412249,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase3/net_benefit_differences.csv,506,4feab5c0cea79b9cebc5801427ef27a3f55b09ac1a24c82f57ceb7c9570d775a,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase3/phase3_summary.json,6590,4508c6ae0e0abac78b2d44ede6f15f5ada202380ad02d097f31d07f5b96e134e,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase3/recalibration.csv,825,2919fb35fcd6942812a78c727b528d71ea76f3d3a3d9094794ffdd5d4c8f792b,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase3/spline_shapes.csv,9258,b9f6071b06c5d71c7a4e03e95233a2271f6742f1cbd93756658c4224cba5cc5c,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase3/spline_vs_linear.csv,416,a0119ecc5ea9ec9716eb809dde46c3d9d6880ff45e37fec795c20909f8a87086,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase3/subgroup_differences.csv,481,33719e9ef90b2a9d5b75ebb8da1efb761aceee38f0ce3cc53043ee1741001c03,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase3/subgroup_performance.csv,822,cef829a6b17ce4473e6841c7dc1e7bb7d8cf7a79b736fd84b864cc64ae77789f,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase3/threshold_folds_full.csv,11764,177e7ab4de9b4315cfa8631f0f8aafd4b789ddb24c13268e0b028b20e7810b24,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase3/threshold_folds_pre_angio.csv,12558,df9c1ffdd1291b76a6c70515f79e9938646182daba227ebb28543b6c1de10118,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/phase3/threshold_metrics.csv,525,1a28d1ea04ef5d11bebfbea54777ea856bae3583ea4482b83907ad1c8aa61f99,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/spearman_correlation.csv,474,0bf426cb96c49b4f606ee4dd8424a160d857139044692f5be4259e90a448ed90,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/target_distribution.csv,71,564f79d153250edc42e4cd722720604712ac009a245a8964bf3290090c76b4d8,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/univariate_tests.csv,2111,e53c27c0f36f031a75f1b85265fdec007784baebb5145046a1aa50bc90b09797,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+reports/tables/variable_types.csv,557,c8044a6ff226a8d9337d6a001ce68e3cefd60e7dce687ae27594e6c403f77350,aggregate-table,"CC BY 4.0 (derived from UCI data, CC BY 4.0)"
+requirements-lock.txt,635,c0f02f638246f2f9fb59ac8eb331dbee54ea08122a0094c09cae425e65833194,code,MIT
+requirements.txt,157,c06d233b08640df679fb6b3391b77004655ebb3025422b3b95e2b0b8ca40bae3,code,MIT
+scripts/audit_release.py,15176,0b1dfdeb7344ca31d22b415ccd51a0c3c030902ae9db9f5fa6e64f76b3c0ca5c,code,MIT
+scripts/release_manifest.py,9230,62aaa9246f17e0a57437a7e7e49d580a42d19d96465c38cb78e8df1b4271e21f,code,MIT
+scripts/run_phase1.py,5302,a50b0db7f90231cd09fc5df9ba40f12342830407b8572f5f967c7f85299f075f,code,MIT
+scripts/run_phase2.py,12901,31f139b59ebb48b8b74201a71432ed9a8c1a79244ffacf14238c0dae7022adc5,code,MIT
+scripts/run_phase3.py,12845,761879fc6f01a3763f264542eb907ce45b5ed08131d4cfc452484a6422aad0ee,code,MIT
+src/mrml/__init__.py,243,0d1020d67a3e6e45fd54d62100bd28d5b57a2c832e3a0d5bd6535ff666c6dbc9,code,MIT
+src/mrml/audit.py,5048,b2e94c1c76ff527f5fb3c0908f3b55ff28bfde36fe06f81e62b9792cd48474c6,code,MIT
+src/mrml/config.py,4225,0186f42aaba2e9fc0da4270c3419bf5ae500ca062698601b7aecdcc13dda19c1,code,MIT
+src/mrml/data_io.py,7953,119f15473c612ba5cff87bbf8afdb4a043efb1eec2f9891fddce0bfd25b5823c,code,MIT
+src/mrml/dictionary.py,8950,95abcbcc1c3d9b1efd0c500bdbc6b80c48e1d6f0135100a8951c64a775f0f2ec,code,MIT
+src/mrml/modeling.py,15054,cf6c35d44be192d5a77cb0bd9f25147dcfe32c54bffb45fee785c341fe87af74,code,MIT
+src/mrml/phase3.py,15248,37689690db007102cdb54845455edf5a8872e06c75dfb1acc92b71ef410369f7,code,MIT
+src/mrml/plots.py,11140,da5845f426c80ecb066e0cd28272d14309ded5b794aed0638afb3cd9275860e8,code,MIT
+src/mrml/plots_phase2.py,8382,bd1ffd3a459c18247de942a7fff4f233ca0a627381f6581441d4576067b71201,code,MIT
+src/mrml/plots_phase3.py,6722,c287475853d296085572c1865088484d15dc5f58148990b3f0142ed55f8fb04b,code,MIT
+src/mrml/stats.py,4723,66cbc6ebea665e73027df86815c2e08fb3f464cd4f599bc7bad307b5d8d9e808,code,MIT
+tests/conftest.py,386,5b4010de7b8545d63d8aecc9df49554f8f5d1523cedc920d56c7db7c77c500c2,code,MIT
+tests/test_data.py,2438,a78f2db55d094ccdc89364d18e103e1c96073bbc9978abfc74a4dea337022326,code,MIT
+tests/test_modeling.py,6002,3b140392785fb5afebad87863af1cd19b685d5751f366734b5cf77be6f66c339,code,MIT
+tests/test_phase3.py,6513,25f6b502573fe9e19b3dd5b466d89f8f6c007515e12b76f02e3df3224a31bdab,code,MIT
+tests/test_release_files.py,5052,c842d28fd73af060a76c7e2deeaf1535ff2c4115a6f25cbcd924749334abdca0,code,MIT
+tests/test_units.py,4297,d9689060fd1b4ab2c4cef28a18d922c60dcfa047aafc57842cd4bb22b6f54852,code,MIT
